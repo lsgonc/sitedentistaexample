@@ -38,7 +38,7 @@ body{
 .wrapper{
     position: relative;
     /* min-height: 60vh; */
-    background: url(imgs/dentista-s1.jpg) no-repeat center/cover;
+    background: url(https://sitedentistaexample.vercel.app/imgs/dentista-s1.jpg) no-repeat center/cover;
     background-attachment: fixed;
 }
 
