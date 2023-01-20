@@ -1,0 +1,248 @@
+body{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #F7F5EB;
+}
+
+
+/* NAVBAR STYLES */
+
+#NAVBAR{
+    position: relative;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.main-navbar{
+    padding: 2% 15% 2% 15%;
+    background-color: #EAE0DA;
+}
+
+.nav-item{
+    padding: 8px;
+}
+
+
+/* SECTION 1 */
+#slider{
+    font-weight: 800;
+    color: white;
+}
+
+.wrapper{
+    position: relative;
+    /* min-height: 60vh; */
+    background: url(/imgs/dentista-s1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+.wrapper::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #2c455d, #00012c);
+    opacity: 0.85;
+}
+
+.main-image-text{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    top: 30%;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.btn-text{
+    font-size: 24px;
+    font-weight: normal;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 40%;
+    width: 200px;
+    color: #fff;
+}
+
+.btn-saiba-mais{
+    border: 2px solid #fff;
+}
+
+.btn-saiba-mais:hover{
+    background-color: #ffffff44;
+    border: 2px solid #fff;
+}
+
+.no-padding, .container-fluid {
+    padding: 0;
+}
+
+
+/* SERVICES */
+#servicos{
+    margin-top: 75px;
+    padding: 0 15% 0 15%;
+    
+}
+
+.services-img{
+    
+    height: 300px;
+}
+
+.service-card{
+    padding: 15px;
+    text-align: left;
+}
+
+.services-title{
+    text-align: left;
+    font-size: 2.5rem;
+    
+}
+
+/* LOCATION */
+#location{
+    margin-top: 75px;
+}
+
+
+#map{
+    top: 100px;
+    left: 15%;
+    position: absolute;
+}
+
+.i-map{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 400px;
+}
+
+#location .wrapper{
+    height: 1000px;
+}
+
+.form{
+    width: 25%;
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    top: 100px;
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.form-input{
+    margin-bottom: 20px;
+}
+
+.btn-submit{
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* PROFISSIONAL */
+#profissional{
+    margin-top: 75px;
+    padding: 0 15% 0 15%;
+    text-align: left;
+}
+
+.img-doutora{
+    height: 700px;
+    margin-bottom: 30px
+}
+
+/* FOOTER */
+.footer{
+    background-color: #EAE0DA;
+}
+
+.footer-items{
+    color: gray;
+}
+
+/* MEDIA QUERYS */
+@media (max-width: 1200px) {
+    /* .main-image-text{
+        top: 10%;
+        text-align: left;
+    } */
+
+    .btn-text{
+        bottom: 25%;
+    }
+
+    #location .wrapper{
+        height: 1300px;
+    }
+
+    #map{
+        top: 100px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        position: absolute;
+    }
+    
+    .i-map{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .form{
+        width: 50%;
+        position: absolute;
+        text-align: left;
+        left: 0;
+        right: 0;
+        top: 600px;
+        color: #fff;
+        font-size: 2rem;
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-image-text{
+        text-align: left;
+       
+    }
+
+    .img-doutora{
+        height: 450px;
+    }
+
+    .btn-text{
+        width: 50%;
+        bottom: 20%; 
+    }
+
+    #location .wrapper{
+        height: 1400px;
+    }
+}
