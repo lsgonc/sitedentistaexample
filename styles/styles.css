@@ -40,6 +40,7 @@ body{
     /* min-height: 60vh; */
     background: url(../imgs/dentista-s1.jpg) no-repeat center/cover;
     background-attachment: fixed;
+    display: flex;
 }
 
 .wrapper::before{
@@ -55,39 +56,50 @@ body{
 .main-image-text{
     font-size: 24px;
     line-height: 1.5;
+    position: relative;
     font-family: 'Roboto', sans-serif;
-    position: absolute;
     text-align: center;
     margin: auto;
-    left: 0;
-    right: 0;
-    width: 50%;
-    top: 30%;
     font-weight: 900;
     padding-bottom: 40px;
 }
 
-.btn-text{
-    font-size: 24px;
+.btn-whats{
+    font-size: 20px;
+    padding: 10px;
     font-weight: normal;
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 40%;
-    width: 200px;
-    color: #fff;
+    text-align: center;;
+    position: relative;
+    width: 300px;
+    background-color: #71DDCE;
+    border-radius: 28px;
 }
 
-.btn-saiba-mais{
-    border: 2px solid #fff;
+.btn-whats:hover{
+    background-color: #229686;
+    color:#343a40;
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
 }
 
-.btn-saiba-mais:hover{
-    background-color: #ffffff44;
-    border: 2px solid #fff;
+.btn-tel{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: normal;
+    text-align: center;;
+    position: relative;
+    width: 300px;
+    background-color: #71DDCE;
+    border-radius: 28px;
 }
+
+.btn-tel:hover{
+    background-color: #229686;
+    color:#343a40;
+}
+
+
 
 .no-padding, .container-fluid {
     padding: 0;
@@ -100,6 +112,18 @@ body{
     padding: 0 15% 0 15%;
     
 }
+
+.btn-services{
+    background-color: #408A9C;
+    border: 1px solid #6A6866;
+}
+
+.btn-services:hover{
+    background-color: #135e70;
+}
+
+
+
 
 .services-img{
     
@@ -122,18 +146,28 @@ body{
     margin-top: 75px;
 }
 
+.loc-title{
+    position: relative;
+    color: #fff;
+    text-align: left;
+}
+
+.map-e-form{
+    position: relative;
+    width: 100%;
+}
 
 #map{
-    top: 100px;
-    left: 15%;
-    position: absolute;
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    flex: 1;
 }
 
 .i-map{
-    position: absolute;
-    left: 0;
-    width: 50%;
-    height: 400px;
+    position: relative;
+    width: 100%;
+    height: 93.2%;
 }
 
 #location .wrapper{
@@ -141,14 +175,13 @@ body{
 }
 
 .form{
-    width: 25%;
-    position: absolute;
+    position: relative;
     text-align: left;
-    left: 50%;
-    top: 100px;
+    width: 100%;
+    padding: 25px;
+    flex: 1;
     color: #fff;
     font-size: 2rem;
-    margin-left: 20px;
 }
 
 .form-input{
@@ -182,14 +215,14 @@ body{
     color: gray;
 }
 
-/* MEDIA QUERYS */
+/* MEDIA QUERYS
 @media (max-width: 1200px) {
     /* .main-image-text{
         top: 10%;
         text-align: left;
     } */
 
-    .btn-text{
+    /* .btn-text{
         bottom: 25%;
     }
 
@@ -226,23 +259,11 @@ body{
         margin: auto;
     }
 }
+*/
 
 @media (max-width: 576px) {
-    .main-image-text{
-        text-align: left;
-       
-    }
-
-    .img-doutora{
-        height: 450px;
-    }
-
-    .btn-text{
-        width: 50%;
-        bottom: 20%; 
-    }
-
     #location .wrapper{
-        height: 1400px;
+        height: 1200px;
     }
+
 }

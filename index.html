@@ -51,10 +51,14 @@
     </section>
 
     <section id="slider">
-        <div class="wrapper">
-            <div class="container justify-content-center">
+        <div class="wrapper container-fluid flex-row justify-content-center align-items-center">
+            <div class="container ">
                 <h1 class="main-image-text">Dentista NOME DA DENTISTA. Garantindo a qualidade do atendimento e serviços de ótima qualidade!</h1>
-                <button class="btn btn-outline-dark btn-text btn-saiba-mais">Saiba mais</button> 
+                <button class="btn btn-tel">Agende pelo telefone</button> 
+                <button class="btn btn-whats"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                      </svg> Agende pelo Whatsapp 
+                </button> 
             </div>
         </div>
     </section>
@@ -73,7 +77,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Serviço 1</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-lg btn-services">Veja mais!</a>
                     </div>
                 </div>
             </div>
@@ -83,7 +87,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Serviço 2</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-lg btn-services">Veja mais!</a>
                     </div>
                 </div>
             </div>
@@ -93,7 +97,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Serviço N</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-lg btn-services">Veja mais!</a>
                     </div>
                 </div>
             </div>
@@ -101,31 +105,39 @@
     </section>
 
     <section id="location">
-        <div class="wrapper">
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59180.98246341394!2d-47.931076734036125!3d-22.018536130387044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b870d8899b96c5%3A0x26db4c677a5af1d4!2sUFSCar%20-%20Universidade%20Federal%20de%20S%C3%A3o%20Carlos!5e0!3m2!1spt-BR!2sbr!4v1674093434657!5m2!1spt-BR!2sbr" class="i-map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="wrapper d-flex">
+            <div class="container-md container-fluid c-location d-flex flex-lg-row flex-column justify-content-center align-items-center flex-fill">
+                <div class="map-e-form d-flex flex-lg-row flex-column justify-content-lg-between">
+                <div id="map">
+                    <h2 class="loc-title">Localização</h2>
+                    <hr>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59180.98246341394!2d-47.931076734036125!3d-22.018536130387044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b870d8899b96c5%3A0x26db4c677a5af1d4!2sUFSCar%20-%20Universidade%20Federal%20de%20S%C3%A3o%20Carlos!5e0!3m2!1spt-BR!2sbr!4v1674093434657!5m2!1spt-BR!2sbr" class="i-map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="form">
+                    <h2 class="loc-title">Agende sua consulta!</h2>
+                    <hr>
+                    <form action="/" method="post">
+                        <label class="form-label">Nome completo: </label>
+                        <input type="text" class="form-control form-control-md form-input" name="nome" id="" placeholder="Seu Nome">   
+                        <label class="form-label">Email: </label>
+                        <input type="email" class="form-control form-control-md form-input" name="nome" id="" placeholder="seuemail@email.com">
+
+                        <label class="form-label">Whatsapp: </label>
+                        <input type="tel" class="form-control form-control-md form-input" name="nome" id="" placeholder="seuemail@email.com">
+
+                        <label for="subject" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="subject" name="subject" placeholder="Digite sua mensagem..." style="height:200px"></textarea>
+                        <button type="submit" class="btn btn-outline-dark btn-submit btn-saiba-mais">Enviar</button>
+                    </form>
+                </div>
             </div>
-
-            <div class="form">
-                <form action="/" method="post">
-                    <label class="form-label">Nome completo: </label>
-                    <input type="text" class="form-control form-control-md form-input" name="nome" id="" placeholder="Seu Nome">   
-                    <label class="form-label">Email: </label>
-                    <input type="email" class="form-control form-control-md form-input" name="nome" id="" placeholder="seuemail@email.com">
-
-                    <label class="form-label">Telefone: </label>
-                    <input type="tel" class="form-control form-control-md form-input" name="nome" id="" placeholder="seuemail@email.com">
-
-                    <label for="subject" class="form-label">Mensagem</label>
-                    <textarea class="form-control" id="subject" name="subject" placeholder="Digite sua mensagem..." style="height:200px"></textarea>
-                    <button type="submit" class="btn btn-outline-dark btn-submit btn-saiba-mais">Enviar</button>
-                </form>
             </div>
         </div>
     </section>
 
     <section id="profissional">
-        <h2 class="services-title">Sobre a doutora</h2>
+        <h2 class="services-title">Conheça a dentista</h2>
         <hr>
 
         <div class="row">
