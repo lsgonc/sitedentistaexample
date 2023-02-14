@@ -43,6 +43,7 @@ body{
     display: flex;
 }
 
+
 .wrapper::before{
     content: "";
     position: absolute;
@@ -53,52 +54,66 @@ body{
     opacity: 0.85;
 }
 
+
 .main-image-text{
-    font-size: 24px;
+    font-size: 40px;
     line-height: 1.5;
     position: relative;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: auto;
-    font-weight: 900;
+    font-weight: 400;
     padding-bottom: 40px;
+}
+
+.icons{
+    padding: 5px;
+}
+
+.button{
+    padding: 20px;
 }
 
 .btn-whats{
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
+    margin-left: 10px;
     font-weight: normal;
     text-align: center;;
     position: relative;
     width: 300px;
     background-color: #71DDCE;
     border-radius: 28px;
+    color: #212529;
 }
 
 .btn-whats:hover{
-    background-color: #229686;
-    color:#343a40;
+    background-color: #71DDCE;
     transform:scale(1.1,1.1);
     -webkit-transform:scale(1.1,1.1);
     -moz-transform:scale(1.1,1.1);
+    color: #212529;
 }
 
 .btn-tel{
     font-size: 20px;
-    padding: 10px;
+    padding: 15px;
     font-weight: normal;
     text-align: center;;
     position: relative;
     width: 300px;
-    background-color: #71DDCE;
+    background-color: #fff;
     border-radius: 28px;
+    color: #212529;
 }
 
 .btn-tel:hover{
-    background-color: #229686;
-    color:#343a40;
+    background-color: #fff;
+    transform: scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    color: #212529;
 }
-
 
 
 .no-padding, .container-fluid {
@@ -116,10 +131,12 @@ body{
 .btn-services{
     background-color: #408A9C;
     border: 1px solid #6A6866;
+    color: #fff;
 }
 
 .btn-services:hover{
     background-color: #135e70;
+    color: #fff;
 }
 
 
@@ -152,6 +169,7 @@ body{
     text-align: left;
 }
 
+
 .map-e-form{
     position: relative;
     width: 100%;
@@ -174,6 +192,7 @@ body{
     height: 1000px;
 }
 
+
 .form{
     position: relative;
     text-align: left;
@@ -189,9 +208,16 @@ body{
 }
 
 .btn-submit{
-    color: white;
-    margin-top: 20px;
+    background-color: #408A9C;
+    border: 1px solid #6A6866;
+    color: #fff;
     width: 100%;
+    margin-top: 20px;
+}
+
+.btn-submit:hover{
+    background-color: #135e70;
+    color: #fff;
 }
 
 /* PROFISSIONAL */
