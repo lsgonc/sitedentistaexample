@@ -21,7 +21,7 @@ body{
 
 .main-navbar{
     padding: 2% 15% 2% 15%;
-    background-color: #EAE0DA;
+    background-color: #dee4e7;
 }
 
 .nav-item{
@@ -118,6 +118,15 @@ body{
 
 .no-padding, .container-fluid {
     padding: 0;
+}
+
+/* FOTOS */
+#fotos{
+    background-color: #dee4e7;
+}
+
+.fotos{
+    padding-top: 75px;
 }
 
 
@@ -234,7 +243,7 @@ body{
 
 /* FOOTER */
 .footer{
-    background-color: #EAE0DA;
+    background-color: #dee4e7;
 }
 
 .footer-items{
